@@ -1,0 +1,92 @@
+.lista-productos {
+  padding: 20px;
+}
+
+.lista-productos h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.producto-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.producto-card:hover {
+  transform: translateY(-4px);
+}
+
+.producto-card img {
+  width: 100%;
+  max-height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.producto-card h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #222;
+}
+
+.precio {
+  font-weight: bold;
+  color: #2e8b57;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.descripcion {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.botones-producto {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.btn-editar,
+.btn-eliminar {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-editar {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-editar:hover {
+  background-color: #0056b3;
+}
+
+.btn-eliminar {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-eliminar:hover {
+  background-color: #a41e2f;
+}

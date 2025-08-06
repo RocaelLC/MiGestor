@@ -1,0 +1,25 @@
+.historial-container {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.resumen-totales {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.ventas-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.venta-card {
+  background: #e6f7ff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}

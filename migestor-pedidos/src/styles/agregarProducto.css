@@ -1,0 +1,81 @@
+.agregar-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.agregar-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.agregar-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.agregar-container input,
+.agregar-container textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.agregar-container button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.agregar-container button:hover {
+  background: #218838;
+}
+
+.formulario-producto {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.formulario-producto .campo input,
+.formulario-producto .campo textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.formulario-producto .campo textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.btn-guardar {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn-guardar:hover {
+  background-color: #218838;
+}
